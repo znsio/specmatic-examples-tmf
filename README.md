@@ -40,3 +40,8 @@ java -jar lib/specmatic.jar virtualize
 ```shell
 java -jar lib/specmatic.jar test
 ```
+
+### Test API Drift
+```shell
+java -jar lib/specmatic.jar compare specs/TMF621-Trouble_Ticket-v5.0.0.oas.yaml specs/TMF621-Trouble_Ticket-v5.0.0.oas_new.yaml
+```
