@@ -1,0 +1,1301 @@
+Hub_FVO.@type:
+  - Hub
+Hub_FVO.@baseType:
+  - Hub
+Hub_FVO.@schemaLocation:
+  - ExampleValue
+Hub_FVO.callback:
+  - ExampleValue
+Hub_FVO.query:
+  - ExampleValue
+Hub.@type:
+  - Hub
+Hub.@baseType:
+  - Hub
+Hub.@schemaLocation:
+  - ExampleValue
+Hub.href:
+  - https://api.telecom.example.com/v5/troubleTicket/1001
+Hub.id:
+  - '1001'
+  - '1002'
+  - '1003'
+Hub.callback:
+  - ExampleValue
+Hub.query:
+  - ExampleValue
+PATH-PARAMS.id:
+  - '1001'
+  - '1002'
+  - '1003'
+TroubleTicketAttributeValueChangeEvent.correlationId:
+  - d107a5f0-9257
+TroubleTicketAttributeValueChangeEvent.description:
+  - TroubleTicketAttributeValueChangeEvent illustration
+TroubleTicketAttributeValueChangeEvent.domain:
+  - Commercial
+TroubleTicketAttributeValueChangeEvent.eventId:
+  - 456b-8663-72338e38d4f0
+TroubleTicketAttributeValueChangeEvent.eventTime:
+  - '2022-08-25T12:18:12.181Z'
+TroubleTicketAttributeValueChangeEvent.eventType:
+  - TroubleTicketAttributeValueChangeEvent
+TroubleTicketAttributeValueChangeEvent.priority:
+  - '1'
+TroubleTicketAttributeValueChangeEvent.title:
+  - TroubleTicketAttributeValueChangeEvent
+TroubleTicket.href:
+  - https://host:port/troubleTicket/v5/troubleTicket/3180
+  - http://servername/troubleTicket/3180
+  - https://mycsp.com:8080/tmf-api/troubleTicket/v5/troubleTicketSpecification/25632415
+  - https://mycsp.com:8080/tmf-api/troubleTicket/v4/troubleTicket/3180
+  - https://mycsp.com:8080/tmf-api/troubleTicket/v5/troubleTicket/3180
+TroubleTicket.id:
+  - '3180'
+  - '25632415'
+AttachmentRef.id:
+  - '1001'
+  - '1002'
+  - '1003'
+AttachmentRef.description:
+  - Scanned disputed bill
+AttachmentRef.name:
+  - March Bill
+AttachmentRef.url:
+  - https://mycsp.com:7070/docloader?docnum=3534555
+EntityRef.id:
+  - '759'
+  - '705'
+  - '3472'
+EntityRef.name:
+  - APP-745
+  - APP-317
+  - March 2019 Bill
+  - Catalog Publishing
+  - Catalog Authoring
+EntityRef.@type:
+  - ReportingResource
+  - EntityRef
+EntityRef.@referredType:
+  - LogicalResource
+  - CustomerBill
+TroubleTicketAttributeValueChangeEvent.@baseType:
+  - Event
+TroubleTicketCreateEvent.correlationId:
+  - 95003dd3-e325
+TroubleTicketCreateEvent.description:
+  - TroubleTicketCreateEvent illustration
+TroubleTicketCreateEvent.domain:
+  - Commercial
+TroubleTicketCreateEvent.eventId:
+  - 4010-9b59-509a64cf85a8
+TroubleTicketCreateEvent.eventTime:
+  - '2022-08-25T12:18:12.171Z'
+TroubleTicketCreateEvent.eventType:
+  - TroubleTicketCreateEvent
+TroubleTicketCreateEvent.priority:
+  - '1'
+TroubleTicketCreateEvent.title:
+  - TroubleTicketCreateEvent
+TroubleTicket.creationDate:
+  - '2019-05-31T07:34:45.968Z'
+  - '2022-05-31T07:34:45.968Z'
+  - '2025-05-01T19:58:27+05:30'
+  - '2025-05-01T19:58:29+05:30'
+TroubleTicket.description:
+  - 'I do not accept the last VOD charge, since the movie was constantly interrupted,
+  I had to quick watching the movie in the middle '
+TroubleTicket.expectedResolutionDate:
+  - '2019-06-10T07:34:45.968Z'
+  - '2025-05-01T19:58:27+05:30'
+  - '2025-05-01T19:58:29+05:30'
+TroubleTicket.lastUpdate:
+  - '2019-05-31T07:34:45.968Z'
+  - '2022-06-22T10:36:30.709Z'
+  - '2022-05-31T07:34:45.968Z'
+  - '2025-05-01T19:58:27+05:30'
+  - '2025-05-01T19:58:29+05:30'
+  - '2022-06-01T07:34:45.968Z'
+TroubleTicket.name:
+  - complaint over last bill
+TroubleTicket.priority:
+  - High
+TroubleTicket.requestedResolutionDate:
+  - '2019-05-31T07:34:45.968Z'
+  - '2025-05-01T19:58:27+05:30'
+  - '2025-05-01T19:58:29+05:30'
+TroubleTicket.severity:
+  - Urgent
+  - Major
+TroubleTicket.status:
+  - pending
+  - resolved
+  - acknowledged
+TroubleTicket.statusChangeDate:
+  - '2019-05-31T07:34:45.968Z'
+  - '2025-05-01T19:58:27+05:30'
+  - '2025-05-01T19:58:29+05:30'
+  - '2022-06-01T07:34:45.968Z'
+TroubleTicket.statusChangeReason:
+  - Need more information from the customer
+  - A refund was issued
+  - Give credit and resent bill to customer
+TroubleTicket.ticketType:
+  - Bill Dispute
+Attachment.description:
+  - Scanned disputed bill
+Attachment.mimeType:
+  - image/png
+Attachment.name:
+  - March Bill
+Attachment.url:
+  - https://mycsp.com:7070/docloader?docnum=3534555
+ChannelRef.id:
+  - '8774'
+ChannelRef.name:
+  - self service
+Note.id:
+  - '77456'
+Note.author:
+  - Jack Smith
+Note.date:
+  - '2019-05-31T07:34:45.968Z'
+  - '2025-05-01T19:58:27+05:30'
+  - '2025-05-01T19:58:29+05:30'
+  - '2022-05-31T07:34:45.968Z'
+Note.text:
+  - This is quite important, please approach me as soon as possible
+  - This is quite important, please approach  me as soon as possible
+RelatedEntity.role:
+  - disputedBill
+EntityRef.href:
+  - https://mycsp.com:8080/tmf-api/customerBillManagement/v5/customerBill/8297
+RelatedPartyRefOrPartyRoleRef.role:
+  - member
+  - reporter
+  - customer
+  - approver
+PartyRef.id:
+  - '9866'
+  - '9867'
+  - '6678'
+  - '9877'
+PartyRef.href:
+  - https://mycsp.com:8080/tmf-api/partyManagement/v5/individual/9866
+  - https://mycsp.com:8080/tmf-api/partyManagement/v5/individual/9867
+  - https://mycsp.com:8080/tmf-api/partyManagement/v5/individual/6678
+PartyRef.name:
+  - Sandy Smith
+  - Jacob Jac Miller
+  - Sara Smith
+PartyRef.@referredType:
+  - Individual
+PartyRoleRef.id:
+  - '9176'
+PartyRoleRef.href:
+  - https://mycsp.com:8080/tmf-api/partyManagement/v4/customer/9176
+PartyRoleRef.name:
+  - Jack Smith
+PartyRoleRef.@referredType:
+  - Customer
+StatusChange.statusChangeDate:
+  - '2019-05-31T07:34:45.968Z'
+  - '2025-05-01T19:58:27+05:30'
+  - '2025-05-01T19:58:29+05:30'
+  - '2022-05-31T07:34:45.968Z'
+StatusChange.statusChangeReason:
+  - Need more information from the customer
+StatusChange.status:
+  - pending
+  - acknowledged
+  - resolved
+TroubleTicketRelationship.id:
+  - '567433'
+TroubleTicketRelationship.href:
+  - https://mycsp.com:8080/tmf-api/troubleTicket/v4/troubleTicket/567433
+  - https://mycsp.com:8080/tmf-api/troubleTicket/v5/troubleTicket/567433
+TroubleTicketRelationship.name:
+  - Network Coverage
+TroubleTicketRelationship.relationshipType:
+  - dependency
+TroubleTicketCreateEvent.@baseType:
+  - Event
+TroubleTicketDeleteEvent.correlationId:
+  - 90cfc73d-deb7
+TroubleTicketDeleteEvent.description:
+  - TroubleTicketDeleteEvent illustration
+TroubleTicketDeleteEvent.domain:
+  - Commercial
+TroubleTicketDeleteEvent.eventId:
+  - 47d6-9751-40e4f01440c9
+TroubleTicketDeleteEvent.eventTime:
+  - '2022-08-25T12:18:12.202Z'
+TroubleTicketDeleteEvent.eventType:
+  - TroubleTicketDeleteEvent
+TroubleTicketDeleteEvent.priority:
+  - '4'
+TroubleTicketDeleteEvent.title:
+  - TroubleTicketDeleteEvent
+TroubleTicketRef.id:
+  - '3180'
+TroubleTicketRef.href:
+  - https://host:port/troubleTicket/v5/troubleTicket/3180
+TroubleTicketDeleteEvent.@baseType:
+  - Event
+TroubleTicketInformationRequiredEvent.correlationId:
+  - 23ad1947-6b0a
+TroubleTicketInformationRequiredEvent.description:
+  - TroubleTicketInformationRequiredEvent illustration request for attachment
+TroubleTicketInformationRequiredEvent.domain:
+  - Commercial
+TroubleTicketInformationRequiredEvent.eventId:
+  - 4655-9378-c6258e688816
+TroubleTicketInformationRequiredEvent.eventTime:
+  - '2022-08-25T12:18:12.224Z'
+TroubleTicketInformationRequiredEvent.eventType:
+  - TroubleTicketInformationRequiredEvent
+TroubleTicketInformationRequiredEvent.priority:
+  - '2'
+TroubleTicketInformationRequiredEvent.title:
+  - TroubleTicketInformationRequiredEvent
+JsonPatch.op:
+  - add
+  - replace
+JsonPatch.path:
+  - /attachment
+  - /severity
+  - /note
+  - /note?id=77456
+  - /lifecycleStatus
+  - /name
+  - /specCharacteristic?id=5
+TroubleTicketInformationRequiredEvent.@baseType:
+  - Event
+TroubleTicketResolvedEvent.correlationId:
+  - 86c9c4c9-b7a5
+TroubleTicketResolvedEvent.description:
+  - TroubleTicketResolvedEvent illustration
+TroubleTicketResolvedEvent.domain:
+  - Commercial
+TroubleTicketResolvedEvent.eventId:
+  - 41ad-b3e1-aa39d233a157
+TroubleTicketResolvedEvent.eventTime:
+  - '2022-08-25T12:18:12.213Z'
+TroubleTicketResolvedEvent.eventType:
+  - TroubleTicketResolvedEvent
+TroubleTicketResolvedEvent.priority:
+  - '5'
+TroubleTicketResolvedEvent.title:
+  - TroubleTicketResolvedEvent
+TroubleTicketResolvedEvent.@baseType:
+  - Event
+TroubleTicketSpecificationAttributeValueChangeEvent.correlationId:
+  - d107a5f0-9257
+TroubleTicketSpecificationAttributeValueChangeEvent.description:
+  - TroubleTicketSpecificationAttributeValueChangeEvent illustration
+TroubleTicketSpecificationAttributeValueChangeEvent.domain:
+  - Commercial
+TroubleTicketSpecificationAttributeValueChangeEvent.eventId:
+  - 456b-8663-72338e38d4f0
+TroubleTicketSpecificationAttributeValueChangeEvent.eventTime:
+  - '2022-08-25T12:18:12.181Z'
+TroubleTicketSpecificationAttributeValueChangeEvent.eventType:
+  - TroubleTicketSpecificationAttributeValueChangeEvent
+TroubleTicketSpecificationAttributeValueChangeEvent.priority:
+  - '1'
+TroubleTicketSpecificationAttributeValueChangeEvent.title:
+  - TroubleTicketSpecificationAttributeValueChangeEvent
+TroubleTicketSpecification.href:
+  - https://host:port/troubleTicketSpecification/v5/troubleTicketSpecification/3180
+  - https://mycsp.com:8080/tmf-api/troubleTicket/v5/troubleTicketSpecification/25632415
+TroubleTicketSpecification.id:
+  - '3180'
+  - '25632415'
+TroubleTicketSpecification.lifecycleStatus:
+  - active
+  - inDesign
+TroubleTicketSpecificationAttributeValueChangeEvent.@baseType:
+  - Event
+TroubleTicketSpecificationCreateEvent.correlationId:
+  - 95003dd3-e325
+TroubleTicketSpecificationCreateEvent.description:
+  - TroubleTicketSpecificationCreateEvent illustration
+TroubleTicketSpecificationCreateEvent.domain:
+  - Commercial
+TroubleTicketSpecificationCreateEvent.eventId:
+  - 4010-9b59-509a64cf85a8
+TroubleTicketSpecificationCreateEvent.eventTime:
+  - '2022-08-25T12:18:12.171Z'
+TroubleTicketSpecificationCreateEvent.eventType:
+  - TroubleTicketSpecificationCreateEvent
+TroubleTicketSpecificationCreateEvent.priority:
+  - '1'
+TroubleTicketSpecificationCreateEvent.title:
+  - TroubleTicketSpecificationCreateEvent
+TroubleTicketSpecification.description:
+  - This trouble ticket specification describes the characteristic and rules to apply
+    when creating a Trouble Ticket...
+TroubleTicketSpecification.creationDate:
+  - '2022-06-22T10:36:30.709Z'
+  - '2022-05-22T10:36:30.709Z'
+  - '2025-05-01T19:58:30+05:30'
+  - '2025-05-01T19:58:31+05:30'
+TroubleTicketSpecification.name:
+  - Bill Dispute
+  - Bill Dispute Specification
+CharacteristicSpecification.id:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+CharacteristicSpecification.name:
+  - disputeAmount
+  - creditAmount
+  - creditReason
+  - rejectReason
+  - currency
+CharacteristicSpecification.valueType:
+  - number
+  - string
+CharacteristicSpecification.configurable:
+  - true
+  - false
+CharacteristicSpecification.description:
+  - The amount that is on dispute, it can be the entire charge amount or partial amount
+    of the charge
+  - The positive amount to be credit, it can be equal or less than the dispute amount.
+    In case credit is given a credit reason must be provided. In case no credit is given
+    a reject reason must be provided
+  - The reason for giving the credit, in case credit apply. In case no credit apply
+    a reject reason must be provided
+  - The reason for rejecting the dispute, in case no credit apply.
+  - Currency (ISO4217 norm uses 3 letters to define the currency)
+CharacteristicSpecification.maxCardinality:
+  - 0
+  - 245
+  - 195
+  - 574
+CharacteristicSpecification.minCardinality:
+  - 1
+  - 646
+  - 806
+  - 324
+CharacteristicSpecificationRelationship.characteristicSpecificationId:
+  - '3'
+CharacteristicSpecificationRelationship.name:
+  - creditReason
+CharacteristicSpecificationRelationship.relationshipType:
+  - dependency
+TimePeriod.startDateTime:
+  - '2022-06-22T23:20:50.52Z'
+  - '2025-05-01T19:58:27+05:30'
+  - '2025-05-01T19:58:28+05:30'
+  - '2025-05-01T19:58:29+05:30'
+  - '2025-05-01T19:58:30+05:30'
+  - '2025-05-01T19:58:31+05:30'
+  - '2025-05-01T19:58:32+05:30'
+TroubleTicketSpecification.version:
+  - '1'
+TroubleTicketSpecificationCreateEvent.@baseType:
+  - Event
+TroubleTicketSpecificationDeleteEvent.correlationId:
+  - 90cfc73d-deb7
+TroubleTicketSpecificationDeleteEvent.description:
+  - TroubleTicketSpecificationDeleteEvent illustration
+TroubleTicketSpecificationDeleteEvent.domain:
+  - Commercial
+TroubleTicketSpecificationDeleteEvent.eventId:
+  - 47d6-9751-40e4f01440c9
+TroubleTicketSpecificationDeleteEvent.eventTime:
+  - '2022-08-25T12:18:12.202Z'
+TroubleTicketSpecificationDeleteEvent.eventType:
+  - TroubleTicketSpecificationDeleteEvent
+TroubleTicketSpecificationDeleteEvent.priority:
+  - '4'
+TroubleTicketSpecificationDeleteEvent.title:
+  - TroubleTicketSpecificationDeleteEvent
+TroubleTicketSpecificationRef.id:
+  - '3180'
+TroubleTicketSpecificationRef.href:
+  - https://host:port/troubleTicket/v5/troubleTicketSpecification/4499
+TroubleTicketSpecificationDeleteEvent.@baseType:
+  - Event
+TroubleTicketSpecificationStatusChangeEvent.correlationId:
+  - 95003dd3-e325
+TroubleTicketSpecificationStatusChangeEvent.description:
+  - TroubleTicketSpecificationStatusChangeEvent illustration
+TroubleTicketSpecificationStatusChangeEvent.domain:
+  - Commercial
+TroubleTicketSpecificationStatusChangeEvent.eventId:
+  - 4010-9b59-509a64cf85a8
+TroubleTicketSpecificationStatusChangeEvent.eventTime:
+  - '2022-08-25T12:18:12.171Z'
+TroubleTicketSpecificationStatusChangeEvent.eventType:
+  - TroubleTicketSpecificationStatusChangeEvent
+TroubleTicketSpecificationStatusChangeEvent.priority:
+  - '1'
+TroubleTicketSpecificationStatusChangeEvent.title:
+  - TroubleTicketSpecificationStatusChangeEvent
+TroubleTicketSpecificationStatusChangeEvent.@baseType:
+  - Event
+TroubleTicketStatusChangeEvent.correlationId:
+  - 0f874cb9-c70d
+TroubleTicketStatusChangeEvent.description:
+  - TroubleTicketStatusChangeEvent illustration
+TroubleTicketStatusChangeEvent.domain:
+  - Commercial
+TroubleTicketStatusChangeEvent.eventId:
+  - 41cf-ad81-d65ea1c2840c
+TroubleTicketStatusChangeEvent.eventTime:
+  - '2022-08-25T12:18:12.191Z'
+TroubleTicketStatusChangeEvent.eventType:
+  - TroubleTicketStatusChangeEvent
+TroubleTicketStatusChangeEvent.priority:
+  - '5'
+TroubleTicketStatusChangeEvent.title:
+  - TroubleTicketStatusChangeEvent
+TroubleTicketStatusChangeEvent.@baseType:
+  - Event
+TroubleTicket_FVO.description:
+  - 'I do not accept the last VOD charge, since the movie was constantly interrupted,
+  I had to quick watching the movie in the middle '
+TroubleTicket_FVO.severity:
+  - Major
+TroubleTicket_FVO.ticketType:
+  - Bill Dispute
+TroubleTicket_FVO.name:
+  - complaint over last bill
+TroubleTicket_FVO.status:
+  - inProgress
+  - acknowledged
+TroubleTicket_FVO.expectedResolutionDate:
+  - '2019-06-10T07:34:45.968Z'
+  - '2025-05-01T19:58:27+05:30'
+  - '2025-05-01T19:58:28+05:30'
+TroubleTicket_FVO.requestedResolutionDate:
+  - '2022-05-31T07:34:45.968Z'
+  - '2025-05-01T19:58:27+05:30'
+  - '2025-05-01T19:58:28+05:30'
+AttachmentRef_FVO.id:
+  - '34345'
+AttachmentRef_FVO.description:
+  - Scanned disputed bill
+AttachmentRef_FVO.name:
+  - March Bill
+AttachmentRef_FVO.url:
+  - https://mycsp.com:7070/docloader?docnum=3534555
+ChannelRef_FVO.id:
+  - '8774'
+ChannelRef_FVO.name:
+  - self service
+Note_FVO.id:
+  - '77456'
+Note_FVO.author:
+  - Jack Smith
+Note_FVO.date:
+  - '2022-05-31T07:34:45.968Z'
+  - '2025-05-01T19:58:27+05:30'
+  - '2025-05-01T19:58:28+05:30'
+Note_FVO.text:
+  - This is quite important, please approach me as soon as possible
+RelatedEntity_FVO.role:
+  - disputedBill
+EntityRef_FVO.id:
+  - '3472'
+EntityRef_FVO.href:
+  - https://mycsp.com:8080/tmf-api/customerBillManagement/v5/customerBill/8297
+EntityRef_FVO.name:
+  - March 2019 Bill
+EntityRef_FVO.@type:
+  - EntityRef
+EntityRef_FVO.@referredType:
+  - CustomerBill
+RelatedPartyRefOrPartyRoleRef_FVO.role:
+  - member
+  - reporter
+  - customer
+  - approver
+PartyRef_FVO.id:
+  - '9866'
+  - '9867'
+  - '6678'
+PartyRef_FVO.href:
+  - https://mycsp.com:8080/tmf-api/partyManagement/v5/individual/9866
+  - https://mycsp.com:8080/tmf-api/partyManagement/v5/individual/6678
+PartyRef_FVO.name:
+  - Sandy Smith
+  - Jacob Jac Miller
+  - Sara Smith
+PartyRef_FVO.@referredType:
+  - Individual
+PartyRoleRef_FVO.id:
+  - '9176'
+PartyRoleRef_FVO.href:
+  - https://mycsp.com:8080/tmf-api/partyManagement/v4/customer/9176
+PartyRoleRef_FVO.name:
+  - Jack Smith
+PartyRoleRef_FVO.@referredType:
+  - Customer
+TroubleTicket.@schemaLocation:
+  - https://mycsp.com:8080/tmf-api/troubleTicket/v5/schema/troubleTicket.yaml
+  - https://mycsp.com:8080/tmf-api/troubleTicket/v5/schema/troubleTicket.yml
+QUERY-PARAMS.fields:
+  - ExampleValue
+TroubleTicket_FVO.@baseType:
+  - TroubleTicket
+TroubleTicket_FVO.@schemaLocation:
+  - ExampleValue
+TroubleTicket_FVO.id:
+  - '1001'
+  - '1002'
+  - '1003'
+Attachment_FVO.@baseType:
+  - Attachment
+Attachment_FVO.@schemaLocation:
+  - ExampleValue
+Attachment_FVO.id:
+  - '1001'
+  - '1002'
+  - '1003'
+Attachment_FVO.name:
+  - ExampleValue
+Attachment_FVO.description:
+  - ExampleValue
+Attachment_FVO.url:
+  - https://api.telecom.example.com/v5/troubleTicket/1001
+Attachment_FVO.content:
+  - ExampleValue
+Quantity.amount:
+  - 821.0
+  - 178.0
+Quantity.units:
+  - ExampleValue
+TimePeriod.endDateTime:
+  - '2025-05-01T19:58:27+05:30'
+  - '2025-05-01T19:58:28+05:30'
+  - '2025-05-01T19:58:29+05:30'
+  - '2025-05-01T19:58:30+05:30'
+  - '2025-05-01T19:58:31+05:30'
+  - '2025-05-01T19:58:32+05:30'
+Attachment_FVO.attachmentType:
+  - ExampleValue
+Attachment_FVO.mimeType:
+  - ExampleValue
+ChannelRef_FVO.@baseType:
+  - ChannelRef
+ChannelRef_FVO.@schemaLocation:
+  - ExampleValue
+ChannelRef_FVO.href:
+  - https://api.telecom.example.com/v5/troubleTicket/1001
+ChannelRef_FVO.@referredType:
+  - ExampleValue
+TroubleTicket_FVO.resolutionDate:
+  - '2025-05-01T19:58:27+05:30'
+  - '2025-05-01T19:58:28+05:30'
+ExternalIdentifier_FVO.@baseType:
+  - ExternalIdentifier
+ExternalIdentifier_FVO.@schemaLocation:
+  - ExampleValue
+ExternalIdentifier_FVO.owner:
+  - ExampleValue
+ExternalIdentifier_FVO.externalIdentifierType:
+  - '1001'
+  - '1002'
+  - '1003'
+ExternalIdentifier_FVO.id:
+  - '1001'
+  - '1002'
+  - '1003'
+Note_FVO.@baseType:
+  - Note
+Note_FVO.@schemaLocation:
+  - ExampleValue
+TroubleTicket_FVO.priority:
+  - Low
+  - Medium
+  - High
+RelatedEntity_FVO.@baseType:
+  - RelatedEntity
+RelatedEntity_FVO.@schemaLocation:
+  - ExampleValue
+EntityRef_FVO.@baseType:
+  - EntityRef
+EntityRef_FVO.@schemaLocation:
+  - ExampleValue
+RelatedPartyRefOrPartyRoleRef_FVO.@baseType:
+  - RelatedPartyRefOrPartyRoleRef
+RelatedPartyRefOrPartyRoleRef_FVO.@schemaLocation:
+  - ExampleValue
+PartyRef_FVO.@baseType:
+  - PartyRef
+PartyRef_FVO.@schemaLocation:
+  - ExampleValue
+TroubleTicket_FVO.statusChangeDate:
+  - '2025-05-01T19:58:27+05:30'
+  - '2025-05-01T19:58:28+05:30'
+TroubleTicket_FVO.statusChangeReason:
+  - pending
+  - acknowledged
+  - resolved
+TroubleTicketRelationship_FVO.@baseType:
+  - TroubleTicketRelationship
+TroubleTicketRelationship_FVO.@schemaLocation:
+  - ExampleValue
+TroubleTicketRelationship_FVO.id:
+  - '1001'
+  - '1002'
+  - '1003'
+TroubleTicketRelationship_FVO.href:
+  - https://api.telecom.example.com/v5/troubleTicket/1001
+TroubleTicketRelationship_FVO.name:
+  - ExampleValue
+TroubleTicketRelationship_FVO.@referredType:
+  - ExampleValue
+TroubleTicketRelationship_FVO.relationshipType:
+  - ExampleValue
+TroubleTicketSpecificationRef_FVO.@baseType:
+  - TroubleTicketSpecificationRef
+TroubleTicketSpecificationRef_FVO.@schemaLocation:
+  - ExampleValue
+TroubleTicketSpecificationRef_FVO.id:
+  - '1001'
+  - '1002'
+  - '1003'
+TroubleTicketSpecificationRef_FVO.href:
+  - https://api.telecom.example.com/v5/troubleTicket/1001
+TroubleTicketSpecificationRef_FVO.name:
+  - ExampleValue
+TroubleTicketSpecificationRef_FVO.@referredType:
+  - ExampleValue
+TroubleTicketSpecificationRef_FVO.version:
+  - ExampleValue
+Characteristic_FVO.@baseType:
+  - Characteristic
+Characteristic_FVO.@schemaLocation:
+  - ExampleValue
+Characteristic_FVO.id:
+  - '1001'
+  - '1002'
+  - '1003'
+Characteristic_FVO.name:
+  - ExampleValue
+Characteristic_FVO.valueType:
+  - ExampleValue
+CharacteristicRelationship_FVO.@baseType:
+  - CharacteristicRelationship
+CharacteristicRelationship_FVO.@schemaLocation:
+  - ExampleValue
+CharacteristicRelationship_FVO.id:
+  - '1001'
+  - '1002'
+  - '1003'
+CharacteristicRelationship_FVO.relationshipType:
+  - ExampleValue
+Error.@baseType:
+  - Error
+Error.@schemaLocation:
+  - ExampleValue
+Error.code:
+  - ExampleValue
+Error.reason:
+  - ExampleValue
+Error.message:
+  - ExampleValue
+Error.status:
+  - pending
+  - acknowledged
+  - resolved
+Error.referenceError:
+  - ExampleValue
+QUERY-PARAMS.offset:
+  - 729
+  - 995
+QUERY-PARAMS.limit:
+  - 795
+  - 285
+HEADERS.X-Total-Count:
+  - 316
+  - 553
+HEADERS.X-Result-Count:
+  - 404
+  - 412
+TroubleTicket.@baseType:
+  - TroubleTicket
+Attachment.@baseType:
+  - Attachment
+Attachment.@schemaLocation:
+  - ExampleValue
+Attachment.href:
+  - https://api.telecom.example.com/v5/troubleTicket/1001
+Attachment.id:
+  - '1001'
+  - '1002'
+  - '1003'
+Attachment.content:
+  - ExampleValue
+Attachment.attachmentType:
+  - ExampleValue
+ChannelRef.@baseType:
+  - ChannelRef
+ChannelRef.@schemaLocation:
+  - ExampleValue
+ChannelRef.href:
+  - https://api.telecom.example.com/v5/troubleTicket/1001
+ChannelRef.@referredType:
+  - ExampleValue
+TroubleTicket.resolutionDate:
+  - '2025-05-01T19:58:27+05:30'
+  - '2025-05-01T19:58:29+05:30'
+  - '2022-06-01T07:34:45.968Z'
+ExternalIdentifier.@baseType:
+  - ExternalIdentifier
+ExternalIdentifier.@schemaLocation:
+  - ExampleValue
+ExternalIdentifier.owner:
+  - ExampleValue
+ExternalIdentifier.externalIdentifierType:
+  - '1001'
+  - '1002'
+  - '1003'
+ExternalIdentifier.id:
+  - '1001'
+  - '1002'
+  - '1003'
+Note.@baseType:
+  - Note
+Note.@schemaLocation:
+  - ExampleValue
+RelatedEntity.@baseType:
+  - RelatedEntity
+RelatedEntity.@schemaLocation:
+  - ExampleValue
+EntityRef.@baseType:
+  - EntityRef
+EntityRef.@schemaLocation:
+  - ExampleValue
+RelatedPartyRefOrPartyRoleRef.@baseType:
+  - RelatedPartyRefOrPartyRoleRef
+RelatedPartyRefOrPartyRoleRef.@schemaLocation:
+  - ExampleValue
+PartyRef.@baseType:
+  - PartyRef
+PartyRef.@schemaLocation:
+  - ExampleValue
+StatusChange.@baseType:
+  - pending
+  - acknowledged
+  - resolved
+StatusChange.@schemaLocation:
+  - pending
+  - acknowledged
+  - resolved
+TroubleTicketRelationship.@baseType:
+  - TroubleTicketRelationship
+TroubleTicketRelationship.@schemaLocation:
+  - ExampleValue
+TroubleTicketRelationship.@referredType:
+  - ExampleValue
+TroubleTicketSpecificationRef.@baseType:
+  - TroubleTicketSpecificationRef
+TroubleTicketSpecificationRef.@schemaLocation:
+  - ExampleValue
+TroubleTicketSpecificationRef.name:
+  - ExampleValue
+TroubleTicketSpecificationRef.@referredType:
+  - ExampleValue
+TroubleTicketSpecificationRef.version:
+  - ExampleValue
+Characteristic.@baseType:
+  - Characteristic
+Characteristic.@schemaLocation:
+  - ExampleValue
+Characteristic.id:
+  - '1001'
+  - '1002'
+  - '1003'
+Characteristic.name:
+  - ExampleValue
+Characteristic.valueType:
+  - ExampleValue
+CharacteristicRelationship.@baseType:
+  - CharacteristicRelationship
+CharacteristicRelationship.@schemaLocation:
+  - ExampleValue
+CharacteristicRelationship.id:
+  - '1001'
+  - '1002'
+  - '1003'
+CharacteristicRelationship.relationshipType:
+  - ExampleValue
+TroubleTicket_MVO.status:
+  - resolved
+  - acknowledged
+TroubleTicket_MVO.statusChangeReason:
+  - Give credit and resent bill to customer
+TroubleTicket_MVO.@baseType:
+  - TroubleTicket
+TroubleTicket_MVO.@schemaLocation:
+  - ExampleValue
+TroubleTicket_MVO.name:
+  - ExampleValue
+TroubleTicket_MVO.description:
+  - ExampleValue
+TroubleTicket_MVO.severity:
+  - Minor
+  - Major
+  - Critical
+TroubleTicket_MVO.ticketType:
+  - Bill Dispute
+  - Service Outage
+  - Installation Request
+Attachment_MVO.@baseType:
+  - Attachment
+Attachment_MVO.@schemaLocation:
+  - ExampleValue
+Attachment_MVO.name:
+  - ExampleValue
+Attachment_MVO.description:
+  - ExampleValue
+Attachment_MVO.url:
+  - https://api.telecom.example.com/v5/troubleTicket/1001
+Attachment_MVO.content:
+  - ExampleValue
+Attachment_MVO.attachmentType:
+  - ExampleValue
+Attachment_MVO.mimeType:
+  - ExampleValue
+ChannelRef_MVO.@baseType:
+  - ChannelRef
+ChannelRef_MVO.@schemaLocation:
+  - ExampleValue
+ChannelRef_MVO.href:
+  - https://api.telecom.example.com/v5/troubleTicket/1001
+ChannelRef_MVO.id:
+  - '1001'
+  - '1002'
+  - '1003'
+ChannelRef_MVO.name:
+  - ExampleValue
+ChannelRef_MVO.@referredType:
+  - ExampleValue
+TroubleTicket_MVO.requestedResolutionDate:
+  - '2025-05-01T19:58:29+05:30'
+  - '2025-05-01T19:58:30+05:30'
+TroubleTicket_MVO.expectedResolutionDate:
+  - '2025-05-01T19:58:29+05:30'
+  - '2025-05-01T19:58:30+05:30'
+TroubleTicket_MVO.resolutionDate:
+  - '2025-05-01T19:58:29+05:30'
+  - '2025-05-01T19:58:30+05:30'
+ExternalIdentifier_MVO.@baseType:
+  - ExternalIdentifier
+ExternalIdentifier_MVO.@schemaLocation:
+  - ExampleValue
+ExternalIdentifier_MVO.owner:
+  - ExampleValue
+ExternalIdentifier_MVO.externalIdentifierType:
+  - '1001'
+  - '1002'
+  - '1003'
+ExternalIdentifier_MVO.id:
+  - '1001'
+  - '1002'
+  - '1003'
+Note_MVO.@baseType:
+  - Note
+Note_MVO.@schemaLocation:
+  - ExampleValue
+Note_MVO.id:
+  - '1001'
+  - '1002'
+  - '1003'
+Note_MVO.author:
+  - ExampleValue
+Note_MVO.date:
+  - '2025-05-01T19:58:29+05:30'
+  - '2025-05-01T19:58:30+05:30'
+Note_MVO.text:
+  - ExampleValue
+TroubleTicket_MVO.priority:
+  - Low
+  - Medium
+  - High
+RelatedEntity_MVO.@baseType:
+  - RelatedEntity
+RelatedEntity_MVO.@schemaLocation:
+  - ExampleValue
+RelatedEntity_MVO.role:
+  - ExampleValue
+RelatedPartyRefOrPartyRoleRef_MVO.@baseType:
+  - ExampleValue
+RelatedPartyRefOrPartyRoleRef_MVO.@schemaLocation:
+  - ExampleValue
+RelatedPartyRefOrPartyRoleRef_MVO.role:
+  - ExampleValue
+PartyRef_MVO.@baseType:
+  - PartyRef
+PartyRef_MVO.@schemaLocation:
+  - ExampleValue
+PartyRef_MVO.href:
+  - https://api.telecom.example.com/v5/troubleTicket/1001
+PartyRef_MVO.id:
+  - '1001'
+  - '1002'
+  - '1003'
+PartyRef_MVO.name:
+  - ExampleValue
+PartyRef_MVO.@referredType:
+  - ExampleValue
+StatusChange_MVO.@baseType:
+  - pending
+  - acknowledged
+  - resolved
+StatusChange_MVO.@schemaLocation:
+  - pending
+  - acknowledged
+  - resolved
+StatusChange_MVO.statusChangeDate:
+  - '2025-05-01T19:58:29+05:30'
+  - '2025-05-01T19:58:30+05:30'
+StatusChange_MVO.statusChangeReason:
+  - pending
+  - acknowledged
+  - resolved
+StatusChange_MVO.status:
+  - acknowledged
+TroubleTicketRelationship_MVO.@baseType:
+  - TroubleTicketRelationship
+TroubleTicketRelationship_MVO.@schemaLocation:
+  - ExampleValue
+TroubleTicketRelationship_MVO.href:
+  - https://api.telecom.example.com/v5/troubleTicket/1001
+TroubleTicketRelationship_MVO.id:
+  - '1001'
+  - '1002'
+  - '1003'
+TroubleTicketRelationship_MVO.name:
+  - ExampleValue
+TroubleTicketRelationship_MVO.@referredType:
+  - ExampleValue
+TroubleTicketRelationship_MVO.relationshipType:
+  - ExampleValue
+TroubleTicketSpecificationRef_MVO.@baseType:
+  - ExampleValue
+TroubleTicketSpecificationRef_MVO.@schemaLocation:
+  - ExampleValue
+TroubleTicketSpecificationRef_MVO.href:
+  - https://api.telecom.example.com/v5/troubleTicket/1001
+TroubleTicketSpecificationRef_MVO.id:
+  - '1001'
+  - '1002'
+  - '1003'
+TroubleTicketSpecificationRef_MVO.name:
+  - ExampleValue
+TroubleTicketSpecificationRef_MVO.@referredType:
+  - ExampleValue
+TroubleTicketSpecificationRef_MVO.version:
+  - ExampleValue
+Characteristic_MVO.@baseType:
+  - Characteristic
+Characteristic_MVO.@schemaLocation:
+  - ExampleValue
+Characteristic_MVO.id:
+  - '1001'
+  - '1002'
+  - '1003'
+Characteristic_MVO.name:
+  - ExampleValue
+Characteristic_MVO.valueType:
+  - ExampleValue
+CharacteristicRelationship_MVO.@baseType:
+  - CharacteristicRelationship
+CharacteristicRelationship_MVO.@schemaLocation:
+  - ExampleValue
+CharacteristicRelationship_MVO.id:
+  - '1001'
+  - '1002'
+  - '1003'
+CharacteristicRelationship_MVO.relationshipType:
+  - ExampleValue
+JsonPatch.from:
+  - ExampleValue
+TroubleTicketSpecification_FVO.name:
+  - Bill Dispute
+TroubleTicketSpecification_FVO.description:
+  - This trouble ticket specification describes the characteristic and rules to apply
+    when creating a Trouble Ticket...
+CharacteristicSpecification_FVO.id:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+CharacteristicSpecification_FVO.configurable:
+  - true
+CharacteristicSpecification_FVO.description:
+  - The amount that is on dispute, it can be the entire charge amount or partial amount
+    of the charge
+  - The positive amount to be credit, it can be equal or less than the dispute amount.
+    In case credit is given a credit reason must be provided. In case no credit is given
+    a reject reason must be provided
+  - The reason for giving the credit, in case credit apply. In case no credit apply
+    a reject reason must be provided
+  - The reason for rejecting the dispute, in case no credit apply.
+  - Currency (ISO4217 norm uses 3 letters to define the currency)
+CharacteristicSpecification_FVO.maxCardinality:
+  - 0
+  - 272
+  - 598
+  - 402
+CharacteristicSpecification_FVO.minCardinality:
+  - 1
+  - 557
+  - 784
+  - 137
+CharacteristicSpecification_FVO.name:
+  - disputeAmount
+  - creditAmount
+  - creditReason
+  - rejectReason
+  - currency
+CharacteristicSpecification_FVO.valueType:
+  - number
+  - string
+CharacteristicSpecificationRelationship_FVO.relationshipType:
+  - dependency
+CharacteristicSpecificationRelationship_FVO.name:
+  - creditReason
+CharacteristicSpecificationRelationship_FVO.parentSpecificationId:
+  - '25632415'
+CharacteristicSpecificationRelationship_FVO.@baseType:
+  - CharacteristicSpecRelationship
+CharacteristicSpecificationRelationship_FVO.@schemaLocation:
+  - /someUri
+CharacteristicSpecificationRelationship_FVO.characteristicSpecificationId:
+  - '3'
+TroubleTicketSpecification_FVO.version:
+  - '1'
+TroubleTicketSpecification.lastUpdate:
+  - '2022-06-22T10:36:30.709Z'
+  - '2025-05-01T19:58:30+05:30'
+  - '2025-05-01T19:58:31+05:30'
+CharacteristicSpecificationRelationship.@schemaLocation:
+  - string
+CharacteristicSpecificationRelationship.parentSpecificationId:
+  - '25632415'
+TroubleTicketSpecification_FVO.@baseType:
+  - TroubleTicketSpecification
+TroubleTicketSpecification_FVO.@schemaLocation:
+  - ExampleValue
+TroubleTicketSpecification_FVO.id:
+  - '1001'
+  - '1002'
+  - '1003'
+TroubleTicketSpecification_FVO.lifecycleStatus:
+  - pending
+  - acknowledged
+  - resolved
+CharacteristicSpecification_FVO.@baseType:
+  - CharacteristicSpecification
+CharacteristicSpecification_FVO.@schemaLocation:
+  - ExampleValue
+CharacteristicSpecification_FVO.isUnique:
+  - true
+  - false
+CharacteristicSpecification_FVO.regex:
+  - ExampleValue
+CharacteristicSpecification_FVO.extensible:
+  - true
+CharacteristicSpecification_FVO.@valueSchemaLocation:
+  - ExampleValue
+CharacteristicSpecificationRelationship_FVO.parentSpecificationHref:
+  - https://api.telecom.example.com/v5/troubleTicket/1001
+CharacteristicValueSpecification_FVO.@baseType:
+  - CharacteristicValueSpecification
+CharacteristicValueSpecification_FVO.@schemaLocation:
+  - ExampleValue
+CharacteristicValueSpecification_FVO.valueType:
+  - ExampleValue
+CharacteristicValueSpecification_FVO.isDefault:
+  - false
+  - true
+CharacteristicValueSpecification_FVO.unitOfMeasure:
+  - ExampleValue
+CharacteristicValueSpecification_FVO.valueFrom:
+  - 202
+  - 212
+  - 695
+  - 840
+  - 769
+CharacteristicValueSpecification_FVO.valueTo:
+  - 318
+  - 786
+  - 244
+  - 113
+  - 550
+CharacteristicValueSpecification_FVO.rangeInterval:
+  - ExampleValue
+CharacteristicValueSpecification_FVO.regex:
+  - ExampleValue
+TroubleTicketSpecification.@baseType:
+  - ExampleValue
+TroubleTicketSpecification.@schemaLocation:
+  - ExampleValue
+CharacteristicSpecification.@baseType:
+  - ExampleValue
+CharacteristicSpecification.@schemaLocation:
+  - ExampleValue
+CharacteristicSpecification.isUnique:
+  - true
+  - false
+CharacteristicSpecification.regex:
+  - ExampleValue
+CharacteristicSpecification.extensible:
+  - false
+  - true
+CharacteristicSpecification.@valueSchemaLocation:
+  - ExampleValue
+CharacteristicSpecificationRelationship.@baseType:
+  - string
+CharacteristicSpecificationRelationship.parentSpecificationHref:
+  - https://api.telecom.example.com/v5/troubleTicket/1001
+CharacteristicValueSpecification.@baseType:
+  - ExampleValue
+CharacteristicValueSpecification.@schemaLocation:
+  - ExampleValue
+CharacteristicValueSpecification.valueType:
+  - ExampleValue
+CharacteristicValueSpecification.isDefault:
+  - true
+  - false
+CharacteristicValueSpecification.unitOfMeasure:
+  - ExampleValue
+CharacteristicValueSpecification.valueFrom:
+  - 910
+  - 271
+  - 229
+  - 318
+  - 960
+  - 782
+CharacteristicValueSpecification.valueTo:
+  - 475
+  - 768
+  - 664
+  - 470
+  - 333
+  - 415
+CharacteristicValueSpecification.rangeInterval:
+  - ExampleValue
+CharacteristicValueSpecification.regex:
+  - ExampleValue
+TroubleTicketSpecification_MVO.lifecycleStatus:
+  - active
+TroubleTicketSpecification_MVO.description:
+  - Bill Dispute Specification
+TroubleTicketSpecification_MVO.@baseType:
+  - ExampleValue
+TroubleTicketSpecification_MVO.@schemaLocation:
+  - ExampleValue
+TroubleTicketSpecification_MVO.name:
+  - ExampleValue
+CharacteristicSpecification_MVO.@baseType:
+  - CharacteristicSpecification
+CharacteristicSpecification_MVO.@schemaLocation:
+  - ExampleValue
+CharacteristicSpecification_MVO.id:
+  - '1001'
+  - '1002'
+  - '1003'
+CharacteristicSpecification_MVO.name:
+  - ExampleValue
+CharacteristicSpecification_MVO.valueType:
+  - ExampleValue
+CharacteristicSpecification_MVO.description:
+  - ExampleValue
+CharacteristicSpecification_MVO.configurable:
+  - true
+  - false
+CharacteristicSpecification_MVO.minCardinality:
+  - 420
+  - 367
+  - 134
+  - 456
+  - 703
+  - 527
+  - 724
+CharacteristicSpecification_MVO.maxCardinality:
+  - 430
+  - 557
+  - 387
+  - 823
+  - 402
+  - 899
+  - 880
+CharacteristicSpecification_MVO.isUnique:
+  - false
+  - true
+CharacteristicSpecification_MVO.regex:
+  - ExampleValue
+CharacteristicSpecification_MVO.extensible:
+  - false
+  - true
+CharacteristicSpecification_MVO.@valueSchemaLocation:
+  - ExampleValue
+CharacteristicSpecificationRelationship_MVO.@baseType:
+  - CharacteristicSpecificationRelationship
+CharacteristicSpecificationRelationship_MVO.@schemaLocation:
+  - ExampleValue
+CharacteristicSpecificationRelationship_MVO.relationshipType:
+  - ExampleValue
+CharacteristicSpecificationRelationship_MVO.name:
+  - ExampleValue
+CharacteristicSpecificationRelationship_MVO.characteristicSpecificationId:
+  - '1001'
+  - '1002'
+  - '1003'
+CharacteristicSpecificationRelationship_MVO.parentSpecificationHref:
+  - https://api.telecom.example.com/v5/troubleTicket/1001
+CharacteristicSpecificationRelationship_MVO.parentSpecificationId:
+  - '1001'
+  - '1002'
+  - '1003'
+CharacteristicValueSpecification_MVO.@baseType:
+  - CharacteristicValueSpecification
+CharacteristicValueSpecification_MVO.@schemaLocation:
+  - ExampleValue
+CharacteristicValueSpecification_MVO.valueType:
+  - ExampleValue
+CharacteristicValueSpecification_MVO.isDefault:
+  - false
+  - true
+CharacteristicValueSpecification_MVO.unitOfMeasure:
+  - ExampleValue
+CharacteristicValueSpecification_MVO.valueFrom:
+  - 818
+  - 872
+  - 702
+  - 774
+  - 940
+  - 425
+  - 933
+  - 186
+  - 436
+  - 156
+CharacteristicValueSpecification_MVO.valueTo:
+  - 773
+  - 702
+  - 434
+  - 290
+  - 998
+  - 782
+  - 316
+  - 180
+  - 571
+  - 975
+CharacteristicValueSpecification_MVO.rangeInterval:
+  - ExampleValue
+CharacteristicValueSpecification_MVO.regex:
+  - ExampleValue
+TroubleTicketSpecification_MVO.version:
+  - ExampleValue

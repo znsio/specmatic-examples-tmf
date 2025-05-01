@@ -1,0 +1,21 @@
+sources:
+  - provider: filesystem
+    provides:
+      - specs/TMF621-Trouble_Ticket-v5.0.0.oas.yaml
+    consumes:
+      - specs/TMF621-Trouble_Ticket-v5.0.0.oas.yaml
+test:
+  resiliencyTests:
+    enable: none
+ignoreInlineExamples: true
+report:
+  formatters:
+    - type: html
+      lite: true
+  types:
+    APICoverage:
+      OpenAPI:
+        successCriteria:
+          minThresholdPercentage: 70
+          maxMissedEndpointsInSpec: 0
+          enforce: false
