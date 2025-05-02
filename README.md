@@ -15,6 +15,19 @@ java -jar lib/specmatic.jar examples export --spec-file specs/TMF621-Trouble_Tic
 ```shell
 java -jar lib/specmatic.jar examples interactive --spec-file specs/TMF621-Trouble_Ticket-v5.0.0.oas.yaml
 ```
+#### Docker version
+```shell
+docker pull znsio/specmatic-openapi
+docker run \
+      -p 9001:9001 \
+      -v "$PWD/.specmatic/repos/specmatic-license.txt:/usr/src/app/specmatic-license.txt" \
+      -v "$PWD/specs/TMF621-Trouble_Ticket-v5.0.0.oas.yaml:/usr/src/app/TMF621-Trouble_Ticket-v5.0.0.oas.yaml" \
+      -v "$PWD/specmatic.yaml:/usr/src/app/specmatic.yaml" \
+      -v "$PWD/specs/TMF621-Trouble_Ticket-v5.0.0.oas_examples:/usr/src/app/TMF621-Trouble_Ticket-v5.0.0.oas_examples" \
+      -v "$PWD/specs/TMF621-Trouble_Ticket-v5.0.0.oas_dictionary.yaml:/usr/src/app/TMF621-Trouble_Ticket-v5.0.0.oas_dictionary.yaml" \
+      -e SPECMATIC_LICENSE_PATH=/usr/src/app/specmatic-license.txt \
+      znsio/specmatic-openapi examples interactive --spec-file TMF621-Trouble_Ticket-v5.0.0.oas.yaml
+```
 
 ### Generate Dictionary
 ```shell
