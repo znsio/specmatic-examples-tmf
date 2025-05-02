@@ -33,12 +33,12 @@ java -jar lib/specmatic.jar examples validate --examples-to-validate=inline --sp
 
 ### Start Mock Server
 ```shell
-java -jar lib/specmatic.jar virtualize
+java -jar lib/specmatic.jar virtualize --port 9003
 ```
 
 ### Run Contract Test against the Mock Server
 ```shell
-java -jar lib/specmatic.jar test
+java -jar lib/specmatic.jar test --testBaseURL=http://localhost:9003 --filter="PATH!='/hub*' && PATH!='/listener/*'"
 ```
 
 ### Test API Drift
