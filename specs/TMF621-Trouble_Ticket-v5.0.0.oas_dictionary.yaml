@@ -697,17 +697,18 @@ Error.@baseType:
 Error.@schemaLocation:
   - ExampleValue
 Error.code:
-  - ExampleValue
+  - 4xx
+  - 5xx
 Error.reason:
-  - ExampleValue
+  - Invalid Request
 Error.message:
-  - ExampleValue
+  - Sorry this is not a valid request
 Error.status:
   - pending
   - acknowledged
   - resolved
 Error.referenceError:
-  - ExampleValue
+  - https://www.w3.org/Protocols/HTTP/HTRESP.html
 QUERY-PARAMS.offset:
   - 729
   - 995
@@ -733,9 +734,10 @@ Attachment.id:
   - '1002'
   - '1003'
 Attachment.content:
-  - ExampleValue
+  - Copy of the Bill
 Attachment.attachmentType:
-  - ExampleValue
+  - PDF
+  - JPEG
 ChannelRef.@baseType:
   - ChannelRef
 ChannelRef.@schemaLocation:
