@@ -49,9 +49,23 @@ java -jar lib/specmatic.jar examples validate --examples-to-validate=inline --sp
 java -jar lib/specmatic.jar virtualize --port 9003
 ```
 
+### Check if the Mock Server is up using curl
+```shell
+curl -X GET http://localhost:9003/troubleTicket/1002
+```
+
 ### Run Contract Test against the Mock Server
 ```shell
 java -jar lib/specmatic.jar test --testBaseURL=http://localhost:9003 --filter="PATH!='/hub*' && PATH!='/listener/*'"
+```
+
+### Run Actual Trouble Ticket API Server
+```shell
+docker compose up
+```
+### Run Contract Test against the actual API server
+```shell
+java -DMAX_TEST_REQUEST_COMBINATIONS=1 -jar lib/specmatic.jar test --testBaseURL=http://localhost:8621/tmf-api/troubleTicket/v5 --filter="PATH!='/hub*' && PATH!='/listener/*' && STATUS!='202'"
 ```
 
 ### Test API Drift
